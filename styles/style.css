@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    background-color: rgba(244,192,124,255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+svg{
+    background-color: rgba(246,219,164,255)
+;
+}
+
+#tooltip{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42em;
+    height: 30em;
+}
+
+
+
+#canvas{
+    margin-top: 2em;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.dot:hover{
+    opacity: 0.5; 
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.legenda-container{
+    height: 10em;
+    width: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+
+
+.legenda-kleur{
+    height: 10em;
+    width: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.kleur{
+   
+    padding-bottom: 1em;
+    height: 1.5em;
+    width: 2em;
+    margin-left: .5em;
+    border-radius: 8px;
+}
+
+
+.legenda-tekst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.75em;
+    
+
+
+}
+
+
+.kleur.orange{
+    background-color: orange;
+}
+
+.kleur.groen{
+    background-color: green;
+}
+
+.kleur.blauw{
+    background-color: blue;
+}
+
+.xtekst{
+    position: absolute;
+    left: 30em;
+    bottom: 23em;
+    background-color:rgba(246,219,164,255) ;
+    padding: 0.2em;
+}
+
+.ytekst{
+    position: absolute;
+    rotate: -90deg;
+    padding: 0.2em;
+    background-color:rgba(246,219,164,255) ;
+    left: 4em;
+    bottom: 40em;
+}
