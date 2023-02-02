@@ -4,12 +4,3 @@ Here is my project for Information Design Tech-drack. Read [Wiki](https://github
 
 <h1>Introduction</h1>
 For my school tech track project from the minor Information design, I have to code a data visualization using D3 and other frameworks.
-
-<h1>Getting started</h1>
-
-<h2>Installation</h2>
-<h2>Clone repository</h2>
-```clone SallyMok/ID-techtrck-22-23```
-<h2></h2>
-npm install
-<h2></h2>
