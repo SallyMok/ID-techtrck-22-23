@@ -9,6 +9,7 @@ For my school tech track project from the minor Information design, I have to co
 
 <h2>Installation</h2>
 <h2>Clone repository</h2>
-clone SallyMok/ID-techtrck-22-23
+```clone SallyMok/ID-techtrck-22-23```
 <h2></h2>
+npm install
 <h2></h2>
